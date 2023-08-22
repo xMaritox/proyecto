@@ -4,7 +4,9 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+a{
+  text-decoration: none;
+}
 h1 {
   color: white;
 }
@@ -111,6 +113,10 @@ img {
   font-size: x-large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+p{
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .fondoblanco {
   background-color: white;
@@ -129,6 +135,13 @@ img {
 }
 
 .imgbanner {
+  margin: middle;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagenNovedades{
   margin: middle;
   height: 100%;
   width: 100%;
